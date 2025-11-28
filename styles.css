@@ -1,2 +1,11 @@
 
-/* Your CSS Code here. */
+.holder {
+    display: flex;
+    justify-content: space-between; /* First & last items touch screen edges */
+    flex-wrap: wrap;                /* Extra items move to next row */
+}
+
+.item {
+    flex: 0 0 auto;                 /* Prevent squashing */
+    margin: 10px 0;                 /* Vertical spacing like the example */
+}
